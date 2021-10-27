@@ -75,8 +75,8 @@ hit_today = []
 blocked = []
 banChats = false
 offline = false
-targetpc = '51987654321'
-owner = '51987654321'
+targetpc = '994404019626'
+owner = '994404019626'
 fake = 'Unix™✓'
 numbernye = '0'
 waktu = '-'
@@ -88,7 +88,7 @@ async function starts() {
 	const turbo = new WAConnection()
         turbo.logger.level = 'warn'
         turbo.version = [2, 2119, 6]
-	console.log('>', '[',color('INFO','blue'),']','Gracias por usar AXEL AC BOT...')
+	console.log('>', '[',color('INFO','blue'),']','Gracias por usar UNIX BOT...')
 	turbo.on('qr', () => {
 	console.log(color('[','white'), color('!','red'), color(']','white'), color(' Escanea el código qr'))
 	})
