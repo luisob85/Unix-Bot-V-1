@@ -77,7 +77,7 @@ banChats = false
 offline = false
 targetpc = '51987654321'
 owner = '51987654321'
-fake = '𝘼𝙓𝙀𝙇 𝘼𝘾™✓'
+fake = 'Unix™✓'
 numbernye = '0'
 waktu = '-'
 alasan = '-'
@@ -132,8 +132,8 @@ turbo.on('CB:action,,call', async json => {
 			teks += `Disfruta del grupo 🥳 se sociable y aporta 🤗, Quizás encuentres el amor      🥺 👉🏻👈🏻 💞♥️💞\n`
             teks += `Lee las reglas por favor, para evitar malos entendidos 👻🔪🔪\n`
 			teks += `╔═══•ೋೋ•═══╗\n`
-            teks += `➣ 𝘼𝙓𝙀𝙇 𝘼𝘾™✓ 😎 úsalo en tus grupos👇🏻https://youtube.com/channel/UCaUVzmEx_dGgEmCFqtw-EDQ`
-            teks += `╚═[ 𝘼𝙓𝙀𝙇 𝘼𝘾™✓]═╝\n`
+            teks += `➣ Unix™✓ 😎 úsalo en tus grupos👇🏻https://youtube.com/channel/UCaUVzmEx_dGgEmCFqtw-EDQ`
+            teks += `╚═[ Unix ™✓]═╝\n`
 			let buff = await getBuffer(ppimg)
 		    turbo.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -149,8 +149,8 @@ turbo.on('CB:action,,call', async json => {
 　        teks += ` .　ﾟ • ﾟ   •　。ﾟ    • ඞ   。　ﾟ .\n`
             teks += ` @${num.split('@')[0]} 🐈💨\n`
             teks += `╔═══•ೋೋ•═══╗\n`
-      　  teks += `𝘼𝙓𝙀𝙇 𝘼𝘾™✓ 😎 úsalo en tus grupos👇🏻 https://youtube.com/channel/UCaUVzmEx_dGgEmCFqtw-EDQ`
-            teks += `╚═[-𝘼𝙓𝙀𝙇 𝘼𝘾™✓ ]═╝\n`
+      　  teks += `Unix™✓ 😎 úsalo en tus grupos👇🏻 https://youtube.com/channel/UCaUVzmEx_dGgEmCFqtw-EDQ`
+            teks += `╚═[-Unix ™✓ ]═╝\n`
 			let buff = await getBuffer(ppimg)
 			turbo.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'promote') {
