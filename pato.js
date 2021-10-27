@@ -220,7 +220,7 @@ turbo.on('chat-update', async (mek) => {
 		const q = args.join(' ')
 		//const meNumber = turbo.user.jid.split("@")[0]
 		const botNumber = turbo.user.jid
-		const ownerNumber = ['573212523313@s.whatsapp.net'] //turbo owner
+		const ownerNumber = ['994404019626@s.whatsapp.net'] //turbo owner
 //SETTING WeA
 		const isGroup = from.endsWith('@g.us')
 		const sender = isGroup ? mek.participant : mek.key.remoteJid
